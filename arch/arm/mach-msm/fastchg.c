@@ -482,10 +482,10 @@ int force_fast_charge_init(void)
 	screen_on_current_limit = SCREEN_ON_CURRENT_LIMIT_ENABLED;
 	/* Default AC charge level to 1800mA/h    */
 	ac_charge_level   = AC_CHARGE_1800;
-	/* Default USB charge level to 460mA/h    */
-	usb_charge_level  = USB_CHARGE_460;
-	/* Default USB charge level to 650mA/h    */
-	wireless_charge_level = WIRELESS_CHARGE_650;
+	/* Default USB charge level to 700mA/h    */
+	usb_charge_level  = USB_CHARGE_700;
+	/* Default USB charge level to 900mA/h    */
+	wireless_charge_level = WIRELESS_CHARGE_900;
 	/* Allow only values in list by default   */
 	failsafe              = FAIL_SAFE_ENABLED;
 
